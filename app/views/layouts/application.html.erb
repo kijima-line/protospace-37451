@@ -23,7 +23,7 @@
             <div class="nav__right">
             <%#=# link_to "マイページ", "/users/#{current_user.id}",class: :nav__logout %>
               <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: :nav__logout %>
-              <a class="nav__logout" href="/prototypes/new">new proto</a>
+              <a class="nav__logout" href="/prototypes/new">New Proto</a>
             </div>
           <%# // ログインしているときは上記を表示するようにしましょう new_prototype_path,%>
           <%# ログインしていないときは以下を表示するようにしましょう %>
